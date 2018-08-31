@@ -85,6 +85,10 @@ An error message will be displayed because there are multiple script tags in the
 
 <hr/>
 
+
+
+my answers 3
+
 ### JavaScript Execution Context
 MSJS practice question 17
 
@@ -141,6 +145,11 @@ function doAction(data, size) {
 
 <hr/>
 
+
+
+
+4
+
 ### Try/Catch/Throw
 MSJS practice question 19
 
@@ -182,6 +191,10 @@ Executed the finally block
 
 <hr/>
 
+
+
+
+2
 ### Input/Confirm (undefined/null)
 MSJS practice question 26
 
@@ -226,6 +239,8 @@ The script in the following HTML page prompts the user for values and shows the 
 
 4) The "result" is: 20
 
+
+3
 <hr/>
 
 ### Typeof/null/undefined/hoisting
@@ -311,6 +326,11 @@ type of n: undefined
 ```
 <hr/>
 
+
+
+
+2
+
 ### HTML5 Form Elements how fields are submitted) (required, email, password, reset, etc.)
 MSJS practice question 120
 
@@ -360,6 +380,10 @@ Temp: 66
 4) http://localhost:35132/Account/FormTest?fullName=&emailAdress=test%40gmail.com&mainPhone=555-123-4587&tempPreference=66
 
 <hr/>
+
+
+
+2
 
 ### Extra on Array Functions: sort, filter, forEach, etc.
 MSJS practice question 40
@@ -442,6 +466,10 @@ Name: Tim, Salary: 14000.00
 
 <hr/>
 
+
+
+
+1
 ### DOM and BOM
 MSJS practice question 28
 
@@ -471,6 +499,9 @@ The following script displays information about the screen:
 4) screen.colorDepth < screen.pixelDepth
 
 
+
+
+3
 <hr/>
 
 ### Dates
@@ -556,3 +587,4 @@ You preview the following page in the browser:
 4) Kiwi
 
 
+3
