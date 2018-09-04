@@ -1,3 +1,5 @@
+*** KEY: 5 out of 9. Well Done!
+
 # JavaScript_Review_10_Questions_Participation
 10 JavaScript Questions to cover with the class
 
@@ -13,7 +15,7 @@ You have the following HTML page:
 <html>
 <head>
          <title>Intro to JavaScript</title>
-          	<meta charset="utf-8" />
+            <meta charset="utf-8" />
 </head>
 <body>
          <script>
@@ -86,7 +88,7 @@ An error message will be displayed because there are multiple script tags in the
 <hr/>
 
 
-
+KEY  - CORRECT
 my answers 3
 
 ### JavaScript Execution Context
@@ -98,7 +100,7 @@ The following HTML page has two script sections in the body and references a Jav
 <html>
 <head>
          <title>Intro to JavaScript</title>
-          	<meta charset="utf-8" />
+            <meta charset="utf-8" />
          <script src="Scripts/Common5.js"></script>
 </head>
 <body>
@@ -129,7 +131,7 @@ function doAction(data, size) {
          var newData = data.substring(0, size);
          var result = newData.split(' ');
          return result;
-} 
+}
 ```
 
 * What will be displayed when you preview this page in the browser?
@@ -147,13 +149,13 @@ function doAction(data, size) {
 
 
 
-
+KEY  - CORRECT
 4
 
 ### Try/Catch/Throw
 MSJS practice question 19
 
-The body of the HTML page contains the following script: 
+The body of the HTML page contains the following script:
 ```
     <script>
              var fileInfo = 'Could not process the file';
@@ -195,6 +197,8 @@ Executed the finally block
 
 
 2
+KEY  - Incorrect (answer was 3)
+
 ### Input/Confirm (undefined/null)
 MSJS practice question 26
 
@@ -204,7 +208,7 @@ The script in the following HTML page prompts the user for values and shows the 
 <html>
 <head>
          <title>Intro to JavaScript</title>
-          	<meta charset="utf-8" />
+            <meta charset="utf-8" />
 </head>
 <body>
          <script>
@@ -241,6 +245,7 @@ The script in the following HTML page prompts the user for values and shows the 
 
 
 3
+KEY  - CORRECT
 <hr/>
 
 ### Typeof/null/undefined/hoisting
@@ -330,6 +335,7 @@ type of n: undefined
 
 
 2
+KEY - Incorrect (answer 3)
 
 ### HTML5 Form Elements how fields are submitted) (required, email, password, reset, etc.)
 MSJS practice question 120
@@ -353,7 +359,7 @@ A form on a page contains the following markup:
          <div>
                   <label for="temp">Temp preference:</label>
                   32
-                  <input type="range" id="temp" name="tempPreference" 
+                  <input type="range" id="temp" name="tempPreference"
                        value="65" min="32" max="96" step="2">
                   96
          </div>
@@ -384,6 +390,7 @@ Temp: 66
 
 
 2
+KEY - Incorrect (answer was 3. 'fullName' input field marked as 'required' so form won't be submitted if it is blank)
 
 ### Extra on Array Functions: sort, filter, forEach, etc.
 MSJS practice question 40
@@ -395,7 +402,7 @@ You have the following HTML page:
 <html>
 <head>
          <title>Intro to JavaScript</title>
-          	<meta charset="utf-8" />
+            <meta charset="utf-8" />
 </head>
 <body>
          <script>
@@ -419,7 +426,7 @@ You have the following HTML page:
                   employees.forEach(function (item) {
                            console.log(`Name: ${item.name}, Salary: ${item.salary.toFixed(2)}`);
                   })
-       
+
          </script>
 </body>
 </html>
@@ -430,37 +437,37 @@ You have the following HTML page:
 Option 1:
 ```
 Name: Bryan, Salary: 7000.00
-Name: tom, Salary: 8000.00  
-Name: James, Salary: 10000.00  
+Name: tom, Salary: 8000.00
+Name: James, Salary: 10000.00
 Name: Tim, Salary: 14000.00
-Name: Jessica, Salary: 21000.00  
+Name: Jessica, Salary: 21000.00
 Name: Lisa, Salary: 33000.00
 ```
 Option 2:
 ```
-Name: James, Salary: 7000.00  
-Name: Bryan, Salary: 10000.00  
-Name: Tim, Salary: 21000.00  
-Name: Jessica, Salary: 33000.00  
-Name: Lisa, Salary: 14000.00  
+Name: James, Salary: 7000.00
+Name: Bryan, Salary: 10000.00
+Name: Tim, Salary: 21000.00
+Name: Jessica, Salary: 33000.00
+Name: Lisa, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 3
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00  
-Name: Tim, Salary: 14000.00  
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: Tim, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 4:
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00 
-Name: tom, Salary: 8000.00 
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: tom, Salary: 8000.00
 Name: Tim, Salary: 14000.00
 ```
 
@@ -470,6 +477,8 @@ Name: Tim, Salary: 14000.00
 
 
 1
+KEY: Incorrect (answer option 3)
+
 ### DOM and BOM
 MSJS practice question 28
 
@@ -502,6 +511,7 @@ The following script displays information about the screen:
 
 
 3
+KEY: CORRECT!
 <hr/>
 
 ### Dates
@@ -513,7 +523,7 @@ A date is declared as follows:
 var d2 = new Date('March 11, 2005 02:30:00');
 ```
 
-Answer the following questions? 
+Answer the following questions?
 
 Question 1) The getDate() function will return: ___
 
@@ -521,7 +531,7 @@ Question 2) The getUTCDate() function will return: ___
 
 Question 3) The getMonth() function will return: ___
 
-
+KEY: N/A
 <hr/>
 
 ### Let, Const
@@ -534,7 +544,7 @@ You preview the following page in the browser:
 <html>
 <head>
     <title>Intro to JavaScript</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <style>
         .format-output {
             width: 300px;
@@ -566,7 +576,7 @@ You preview the following page in the browser:
             if (i <= 0) return;
             return names[i - 1];
         }
-        
+
         names.sort();
         var index = findIndex('orange');
 
@@ -588,3 +598,4 @@ You preview the following page in the browser:
 
 
 3
+KEY: CORRECT!
